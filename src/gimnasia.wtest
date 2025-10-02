@@ -16,10 +16,13 @@ test "punto 1: remarEnElDelta" {
 	const remarEnElDelta = new Remo()
 	assert.equals(520, remarEnElDelta.caloriasQuemadas(5))
 	assert.equals(9360, remarEnElDelta.caloriasQuemadas(90))
+
 }
 
 test "punto 1: remoDeCompetición"{
-	
+	const remarEnElCaminoDeLosRemeros = new RemoDeCompetición()
+	assert.equals(510, remarEnElCaminoDeLosRemeros.caloriasQuemadas(5))
+assert.equals(12750, remarEnElDelta.caloriasQuemadas(90))
 }
 
 

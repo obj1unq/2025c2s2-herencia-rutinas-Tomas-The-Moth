@@ -40,7 +40,7 @@ class Remo inherits Rutinas {
     }
 
     override method descanso(tiempo){
-      return  tiempo/ 5
+      return  tiempo/5
     }
 
 }
@@ -74,13 +74,10 @@ class RemoDeCompetición inherits Remo{
         return 1.7
     }
     override method descanso(tiempo){
-     return if ((super(tiempo)-3) <2){
-        2
-     }
-     else {(super(tiempo)-3) <2 }
+     return (super(tiempo)-3).max(2)}
     }
 
-}
+
 
 // ejemplo de remo de ecompetición
 
