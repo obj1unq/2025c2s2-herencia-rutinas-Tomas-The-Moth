@@ -50,7 +50,11 @@ Es un tipo especial de Running con la siguiente diferencia:
 
 **Ejemplo:** **remar en el delta** es una actividad de remo 
 - Al practicarse por 5 minutos quemará `100 * (5 - (5 /5)) * 1.3 = 520`
-- Al practicarse por 90 minutos quemará `100 * (90 - (90/5)) * 1.3 = 9360`
+- Al practicarse por 90 minutos quemará `100 * (90 - (90/5))
+
+
+
+ * 1.3 = 9360`
 
 ## Remo de competición
 
